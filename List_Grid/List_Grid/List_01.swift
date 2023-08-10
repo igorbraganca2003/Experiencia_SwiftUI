@@ -20,7 +20,7 @@ private struct ChatList: Identifiable {
 private let chatList: [ChatList] = [
     ChatList(name: "Janet", pic: "profile_pic1", message: "Do you know where tin foils is at whole foods?", date: "3:14PM", unread: true),
     ChatList(name: "Diego", pic: "profile_pic2", message: "Sure thing man, come on over if you want to see the new designs.", date: "Tuesday", unread: true),
-    ChatList(name: "Gloria", pic: "profile_pic3", message: "Call me later if you have the time!", date: "2:45PM", unread: false),
+    ChatList(name: "Gloria", pic: "profile_pic3", message: "Call me later if you have the time!", date: "2:45PM", unread: true),
     ChatList(name: "Jake", pic: "profile_pic4", message: "What time is everyone playing Halo Infinite online tonight?", date: "8:35AM", unread: false),
     ChatList(name: "Ammy", pic: "profile_pic5", message: "Thanks for dropping off those cookies after Chrismas dinner. You're too kind!", date: "Yesterday", unread: true),
     ChatList(name: "Caleb", pic: "profile_pic6", message: "Nah, I'm still burnt out from my last freelance project. Trying to take it easy.", date: "10:49AM", unread: false)
